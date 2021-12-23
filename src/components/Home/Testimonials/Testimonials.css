@@ -1,0 +1,59 @@
+.testimonials {
+  margin: 40px auto;
+  width: 70vw;
+}
+
+.testimonial-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #344767;
+}
+
+.testimonial-subtitle {
+  text-align: center;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  padding: 0 1rem;
+  margin-bottom: 4rem;
+  color: #344767;
+}
+
+.testimonials .row {
+  margin-top: 30px;
+}
+
+.col-md-4 {
+  margin: 40px auto;
+}
+
+.col-md-6 {
+  margin: 40px auto;
+}
+
+.profile {
+  padding: 70px 10px 10px;
+  background: #fff;
+}
+
+.user {
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.user-quote {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #344767;
+}
+
+.user-name {
+  text-align: center;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  color: #344767;
+}

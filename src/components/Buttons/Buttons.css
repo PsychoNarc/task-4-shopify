@@ -1,0 +1,77 @@
+.button-custom {
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  min-width: 150px;
+  max-width: 98%;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 109px;
+  height: 38px;
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+}
+
+/* .button-custom{
+  padding: 8px 20px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+} */
+
+.button-primary {
+  background: #cb0c9f;
+  color: #fff;
+  border: 1px solid #cb0c9f;
+}
+
+.button-secondary {
+  background: #344767;
+  color: #fff;
+  border: 1px solid #344767;
+}
+
+.button-outline {
+  background: #fff;
+  color: #cb0c9f;
+  border: 1px solid #cb0c9f;
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+
+.button-medium {
+  padding: 8px 20px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.button-large {
+  padding: 12x 26px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-radius: 7px;
+  width: 97%;
+  font-weight: 600;
+}
+
+.button-medium:hover,
+.button-large:hover {
+  background: transparent;
+  color: #cb0c9f;
+  text-decoration: none;
+  transition: translate(2px);
+}
+
+.button-secondary:hover {
+  background: #cb0c9f;
+  color: #fff;
+  border: 1px solid #344767;
+}

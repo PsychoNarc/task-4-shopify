@@ -1,0 +1,86 @@
+.follow-up {
+  margin: 40px auto;
+  width: 70vw;
+}
+
+.follow-up-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #344767;
+  margin-top: 10px;
+}
+
+.follow-up .row-one {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.follow-up .row-two {
+  margin-top: -35px;
+  margin-bottom: 0;
+}
+
+.col {
+  margin: 40px auto;
+}
+
+.follow-up-card {
+  position: relative;
+  display: inline-block;
+}
+
+.card-image {
+  display: block;
+  height: 155px;
+  width: 155px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.card-image:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.overlay-content {
+  color: black;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.overlay-fade {
+  height: 100%;
+  width: 100%;
+  top: -50%;
+  left: 50%;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.follow-up-card:hover .overlay-fade {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.follow-up-card:hover .overlay {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.fa-instagram {
+  margin-top: 60px;
+}

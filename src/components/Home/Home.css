@@ -1,0 +1,223 @@
+/* OUTLOOK SECTION */
+.outlook-section{
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.outlook-heading {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #344767;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.lead {
+  text-align: center;
+  font-size: clamp(1.5rem, 2.5vw, 1.1rem);
+  padding: 0 6rem;
+  margin-bottom: 3rem;
+}
+
+.welcome {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .padding {
+    height: 600px;
+  }
+  .welcome {
+    width: 90%;
+  }
+}
+
+/* ADDRESS SECTION */
+.address-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url("../../assets/img/map-bg.webp") no-repeat center;
+  margin-bottom: 100px;
+}
+
+.address-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 18px;
+  padding: 0 50px;
+}
+
+.address-card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 10px;
+  max-height: 520px;
+  padding: 30px;
+  box-shadow: -10px 20px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-topline {
+  color: #344767;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 121px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.address-quote {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  color: #344767;
+}
+
+.address-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-heading {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #344767;
+  margin-bottom: 0;
+}
+
+.address {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #344767;
+}
+
+.open-timings {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.timings {
+  color: #344767;
+  font-size: 18px;
+}
+
+.address-button {
+  margin-top: 10px;
+}
+
+.fa-map-marker {
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+  .address-wrapper {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+  .address-container {
+    height: 1300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .address-container {
+    height: 1100px;
+    margin-top: 400px;
+  }
+
+  .address-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .address-container {
+    height: 1300px;
+  }
+}
+
+/* COUNTER SECTION */
+.counter-up {
+  /* background: grey; */
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-up .content {
+  display: flex;
+  width: 70vw;
+  height: 100%;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .box {
+  width: calc(25%-40px);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #344767;
+  flex-direction: column;
+}
+
+.content .box .icon {
+  font-size: 30px;
+  color: #cb0c9f;
+}
+
+.content .box .counter {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.content .box .text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 1036px) {
+  .counter-up {
+    padding: 50px 50px 0 50px;
+  }
+
+  .counter-up .content {
+    flex-wrap: wrap;
+  }
+
+  .content .box {
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 540px) {
+  .content .box {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}

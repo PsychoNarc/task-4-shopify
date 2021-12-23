@@ -1,0 +1,58 @@
+.fashion-show-container {
+  background: #ffffff;
+  height: 700px;
+  width: 100%;
+  padding: 1rem calc((100vw-1300px) / 2);
+  color: #344767;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 140px;
+  position: relative;
+}
+
+.fashion-show-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fashion-show-content h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.fashion-show-content p {
+  text-align: center;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 2%;
+  width: 64vw;
+  height: 75vh;
+}
+
+.react-player {
+  position: relative;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1300px) {
+  .fashion-show-container {
+    padding: 1rem calc((100vw-1300px) / 2);
+  }
+  .react-player {
+    width: 100%;
+    height: 100%;
+  }
+}
