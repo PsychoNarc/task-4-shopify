@@ -6,6 +6,7 @@ import { Blog } from "./components/Pages/Blog";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ShippingReturn } from "./components/Pages/ShippingReturn";
 import { ContactForm } from "./components/Pages/ContactForm";
+import { Catalog } from "./components/Catalog/Catalog";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/blog/:id" exact element={<Blog />} />
           <Route path='/pages/shipping-returns' exact element={<ShippingReturn />} />
           <Route path='/pages/contact' exact element={<ContactForm />} />
+          <Route path='/catalog' exact element={<Catalog />} />
         </Routes>
         <Footer />
       </Router>

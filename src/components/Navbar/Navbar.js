@@ -57,7 +57,7 @@ export const Navbar = ({ navStyle }) => {
           </li>
           <li className="navItem">
             <Link
-              to="/"
+              to="/catalog"
               className={`${checkNavStyle}`}
               onClick={closeMobileMenu}
             >

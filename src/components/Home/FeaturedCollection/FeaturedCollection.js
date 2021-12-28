@@ -75,7 +75,11 @@ export const FeaturedCollection = () => {
           <div className="featured-info-row">
             <div className="featured-column-one position-sticky top-2">
               <div className="image-wrap">
-                <img className="featured-info-image" src={ImageFeatured} alt="info" />
+                <img
+                  className="featured-info-image"
+                  src={ImageFeatured}
+                  alt="info"
+                />
               </div>
             </div>
             <div className="featured-column-two">
@@ -128,7 +132,10 @@ export const FeaturedCollection = () => {
                 <Link to="/" className="item-link">
                   <p className="item-link-text">
                     Full Details
-                    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    <i
+                      className="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>
                   </p>
                 </Link>
                 <div className="featured-tags">

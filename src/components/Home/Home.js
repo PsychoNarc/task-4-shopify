@@ -17,7 +17,7 @@ import { CollectionList } from "./CollectionList/CollectionList";
 export const Home = () => {
   return (
     <>
-    <Navbar navStyle='navLinks-white' />
+      <Navbar navStyle="navLinks-white" />
       <Hero />
 
       {/* OUTLOOK SECTION */}
@@ -41,7 +41,6 @@ export const Home = () => {
 
       {/* FEATURED COLLECTION */}
       <FeaturedCollection />
-
 
       {/* NEWSLETTER SECTION */}
       <Newsletter />
