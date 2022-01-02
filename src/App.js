@@ -18,6 +18,7 @@ function App() {
           <Route path='/pages/shipping-returns' exact element={<ShippingReturn />} />
           <Route path='/pages/contact' exact element={<ContactForm />} />
           <Route path='/catalog' exact element={<Catalog />} />
+          <Route />
         </Routes>
         <Footer />
       </Router>
