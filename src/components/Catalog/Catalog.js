@@ -1,21 +1,42 @@
 import React, { useEffect, useState } from "react";
 import "./Catalog.css";
+import axios from 'axios';
 // import { Link } from "react-router-dom";
 import { Buttons } from "../Buttons/Buttons";
 import { Navbar } from "../Navbar/Navbar";
-// import { CatalogData } from "./CatalogData";
+import { useDispatch, useSelector } from "react-redux";
+import { setProducts } from "../../redux/actions/productActions";
 
 export const Catalog = () => {
   const [catalogData, setCatalogData] = useState(null);
+  const products = useSelector(state => state.allProducts.products);
+  const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   fetch('http://localhost:8000/catalog-data')
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       // console.log(data);
+  //       setCatalogData(data);
+  //       dispatch(setProducts(data));
+  //     })
+  // }, []);
 
   useEffect(() => {
-    fetch('http://localhost:8000/catalog-data')
-      .then(res => res.json())
-      .then(data => {
-        // console.log(data);
-        setCatalogData(data);
-      })
-  }, []);
+    const fetchProducts = async () => {
+      const response = await axios
+        .get("http://localhost:8000/catalog-data")
+        .catch(err => console.log(err));
+      console.log(response)
+      console.log(response.data)
+      setCatalogData(response.data);
+      dispatch(setProducts(response.data));
+    }
+    fetchProducts();
+
+  }, [setCatalogData, dispatch]);
+
+  console.log(products);
 
 
   return (
