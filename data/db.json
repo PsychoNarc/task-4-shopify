@@ -1,0 +1,112 @@
+{
+  "catalog-data": [
+    {
+      "title": "Abstract Print T-Shirt",
+      "price": "$590",
+      "image": "assets/catalog/shirt-1.jpg",
+      "alt": "shirt-1",
+      "button": "Add to Cart",
+      "id": "1",
+      "discount": null
+    },
+    {
+      "title": "Backstrap Side Stripe Trousers",
+      "price": "$680",
+      "image": "assets/catalog/trousers-1.jpg",
+      "alt": "trouser-1",
+      "button": "Add to Cart",
+      "id": "2",
+      "discount": null
+    },
+    {
+      "title": "Borrowed Tailored Trousers",
+      "price": "$800",
+      "image": "assets/catalog/trousers-2.jpg",
+      "alt": "trouser-2",
+      "button": "Add to Cart",
+      "id": "3",
+      "discount": "SAVE $600"
+    },
+    {
+      "title": "Breaseted Two-piece Suit",
+      "price": "$1900",
+      "image": "assets/catalog/suit-1.jpg",
+      "alt": "suit-1",
+      "button": "Add to Cart",
+      "id": "4",
+      "discount": null
+    },
+    {
+      "title": "Carretto Print Bag",
+      "price": "$4000",
+      "image": "assets/catalog/bag-1.jpg",
+      "alt": "bag-1",
+      "button": "Add to Cart",
+      "id": "5",
+      "discount": "SAV $1400"
+    },
+    {
+      "title": "Fox Print T-shirt",
+      "price": "$290",
+      "image": "assets/catalog/shirt-2.jpg",
+      "alt": "shirt-2",
+      "button": "Add to Cart",
+      "id": "6",
+      "discount": "SAV $200"
+    },
+    {
+      "title": "Gift Card",
+      "price": "$50+",
+      "image": "assets/catalog/gift-card.jpg",
+      "alt": "gift-card",
+      "button": "Add to Cart",
+      "id": "7",
+      "discount": null
+    },
+    {
+      "title": "Gradient Fringed Scarf",
+      "price": "$4000",
+      "image": "assets/catalog/scarf-1.jpg",
+      "alt": "scarf-1",
+      "button": "Add to Cart",
+      "id": "8",
+      "discount": null
+    },
+    {
+      "title": "Graphic Print T-shirt",
+      "price": "$290",
+      "image": "assets/catalog/shirt-3.jpg",
+      "alt": "shirt-3",
+      "button": "Add to Cart",
+      "id": "9",
+      "discount": "SAVE $110"
+    },
+    {
+      "title": "Peak Double Breasted Suit",
+      "price": "$900",
+      "image": "assets/catalog/suit-2.jpg",
+      "alt": "suit-2",
+      "button": "Add to Cart",
+      "id": "10",
+      "discount": "SAVE $100"
+    },
+    {
+      "title": "Pocket Tailored Trousers",
+      "price": "$790",
+      "image": "assets/catalog/trousers-3.jpg",
+      "alt": "trousers-3",
+      "button": "Add to Cart",
+      "id": "11",
+      "discount": "SAVE $210"
+    },
+    {
+      "title": "Sunset Chain Bag",
+      "price": "$1,000",
+      "image": "assets/catalog/bag-2.jpg",
+      "alt": "bag-2",
+      "button": "Add to Cart",
+      "id": "12",
+      "discount": null
+    }
+  ]
+}

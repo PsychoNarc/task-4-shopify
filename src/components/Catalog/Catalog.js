@@ -1,19 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Catalog.css";
 // import { Link } from "react-router-dom";
 import { Buttons } from "../Buttons/Buttons";
 import { Navbar } from "../Navbar/Navbar";
-import { CatalogData } from "./CatalogData";
+// import { CatalogData } from "./CatalogData";
 
 export const Catalog = () => {
+  const [catalogData, setCatalogData] = useState(null);
+
+  useEffect(() => {
+    fetch('http://localhost:8000/catalog-data')
+      .then(res => res.json())
+      .then(data => {
+        // console.log(data);
+        setCatalogData(data);
+      })
+  }, []);
+
+
   return (
     <div className="catalog-container">
       <Navbar navStyle="navLinks-black" />
       <h2 className="catalog-heading">Products</h2>
       <div className="catalog-wrapper">
-        {CatalogData.map((item, index) => {
+        {catalogData && catalogData.map((item) => {
           return (
-            <div className="catalog-card" key={index}>
+            <div className="catalog-card" key={item.id}>
               <div className="catalog-favorite">
                 <span className={item.discount && "banner"}>
                   {item.discount}
