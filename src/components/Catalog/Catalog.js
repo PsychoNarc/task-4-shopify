@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./Catalog.css";
 import axios from 'axios';
 // import { Link } from "react-router-dom";
@@ -8,43 +8,25 @@ import { useDispatch, useSelector } from "react-redux";
 import { setProducts } from "../../redux/actions/productActions";
 
 export const Catalog = () => {
-  const [catalogData, setCatalogData] = useState(null);
   const products = useSelector(state => state.allProducts.products);
   const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   fetch('http://localhost:8000/catalog-data')
-  //     .then(res => res.json())
-  //     .then(data => {
-  //       // console.log(data);
-  //       setCatalogData(data);
-  //       dispatch(setProducts(data));
-  //     })
-  // }, []);
 
   useEffect(() => {
     const fetchProducts = async () => {
       const response = await axios
         .get("http://localhost:8000/catalog-data")
         .catch(err => console.log(err));
-      console.log(response)
-      console.log(response.data)
-      setCatalogData(response.data);
       dispatch(setProducts(response.data));
     }
     fetchProducts();
-
-  }, [setCatalogData, dispatch]);
-
-  console.log(products);
-
+  }, [dispatch]);
 
   return (
     <div className="catalog-container">
       <Navbar navStyle="navLinks-black" />
       <h2 className="catalog-heading">Products</h2>
       <div className="catalog-wrapper">
-        {catalogData && catalogData.map((item) => {
+        {products.map(item => {
           return (
             <div className="catalog-card" key={item.id}>
               <div className="catalog-favorite">
