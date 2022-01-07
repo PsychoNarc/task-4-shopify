@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ShippingReturn } from "./components/Pages/ShippingReturn";
 import { ContactForm } from "./components/Pages/ContactForm";
 import { Catalog } from "./components/Catalog/Catalog";
+import { ProductDetails } from "./components/Pages/ProductDetails";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/pages/shipping-returns' exact element={<ShippingReturn />} />
           <Route path='/pages/contact' exact element={<ContactForm />} />
           <Route path='/catalog' exact element={<Catalog />} />
+          <Route path='/product/:productId' exact element={<ProductDetails />} />
           <Route />
         </Routes>
         <Footer />

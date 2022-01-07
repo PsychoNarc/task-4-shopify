@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Catalog.css";
 import axios from 'axios';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Buttons } from "../Buttons/Buttons";
 import { Navbar } from "../Navbar/Navbar";
 import { useDispatch, useSelector } from "react-redux";
@@ -37,21 +37,22 @@ export const Catalog = () => {
                   <i className="fa fa-heart" aria-hidden="true"></i>
                 </span>
               </div>
-
-              <img className="catalog-image" src={item.image} alt={item.alt} />
-              <div className="catalog-info">
-                <div className="catalog-button">
-                  <Buttons
-                    to="/"
-                    buttonStyle="button-outline"
-                    buttonSize="button-medium"
-                  >
-                    {item.button}
-                  </Buttons>
+              <Link to={`/product/${item.id}`} className="catalog-link">
+                <img className="catalog-image" src={item.image} alt={item.alt} />
+                <div className="catalog-info">
+                  <div className="catalog-button">
+                    <Buttons
+                      to="/"
+                      buttonStyle="button-outline"
+                      buttonSize="button-medium"
+                    >
+                      {item.button}
+                    </Buttons>
+                  </div>
+                  <h3 className="catalog-title">{item.title}</h3>
+                  <p className="catalog-price">{item.price}</p>
                 </div>
-                <h3 className="catalog-title">{item.title}</h3>
-                <p className="catalog-price">{item.price}</p>
-              </div>
+              </Link>
             </div>
           );
         })}

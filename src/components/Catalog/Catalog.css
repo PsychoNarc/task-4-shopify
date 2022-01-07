@@ -6,6 +6,16 @@
   margin-top: 100px;
 }
 
+.catalog-link{
+  text-decoration: none;
+  color: #344767;
+}
+
+.catalog-link:hover{
+  text-decoration: none;
+  color: #344767;
+}
+
 .catalog-wrapper {
   display: flex;
   flex-wrap: wrap;
