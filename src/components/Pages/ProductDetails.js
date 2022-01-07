@@ -29,8 +29,6 @@ export const ProductDetails = () => {
         }
     }, [productId, dispatch]);
 
-    console.log(product)
-
     return (
         <div className='product-details-container'>
             <Navbar navStyle="navLinks-black" />
