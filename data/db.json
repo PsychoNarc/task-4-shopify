@@ -16,16 +16,18 @@
       "alt": "trouser-1",
       "button": "Add to Cart",
       "id": "2",
-      "discount": null
+      "discount": null,
+      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present."
     },
     {
-      "title": "Borrowed Tailored Pants",
+      "title": "Borrowed Tailored Trousers",
       "price": "$800",
       "image": "assets/catalog/trousers-2.jpg",
       "alt": "trouser-2",
       "button": "Add to Cart",
       "id": "3",
-      "discount": "SAVE $600"
+      "discount": "SAVE $600",
+      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present."
     },
     {
       "title": "Breaseted Two-piece Suit",
@@ -43,7 +45,8 @@
       "alt": "bag-1",
       "button": "Add to Cart",
       "id": "5",
-      "discount": "SAV $1400"
+      "discount": "SAV $1400",
+      "description": "Boasting a multicolor Carretto print covering the entire canvas bag, this accessory has two rounded top handles and polished gold-tone chain shoulder straps that exude Italian decadence."
     },
     {
       "title": "Fox Print T-shirt",
@@ -52,7 +55,8 @@
       "alt": "shirt-2",
       "button": "Add to Cart",
       "id": "6",
-      "discount": "SAV $200"
+      "discount": "SAV $200",
+      "description": "Known for reshaping its signature fox motif, the shop delivers this cotton T-shirt that is printed with a playful iteration of the house's whimsical animal."
     },
     {
       "title": "Gift Card",
@@ -61,7 +65,8 @@
       "alt": "gift-card",
       "button": "Add to Cart",
       "id": "7",
-      "discount": null
+      "discount": null,
+      "description": "Explore our gift card ideas for the perfect pieces for graduations, birthdays & anniversaries."
     },
     {
       "title": "Gradient Fringed Scarf",
@@ -70,7 +75,8 @@
       "alt": "scarf-1",
       "button": "Add to Cart",
       "id": "8",
-      "discount": null
+      "discount": null,
+      "description": "Woven from a soft blend of alpaca wool, this Isabel Marant scarf is part of the brand's AW21 collection and features a gradient effect in shades of green. It's finished with an embroidered logo at the front and fringed edges for added texture."
     },
     {
       "title": "Graphic Print T-shirt",
@@ -79,7 +85,8 @@
       "alt": "shirt-3",
       "button": "Add to Cart",
       "id": "9",
-      "discount": "SAVE $110"
+      "discount": "SAVE $110",
+      "description": "Crafted from 100% cotton, it is detailed with a playful graphic print on the chest. Two branded details, a logo print on the front and a signature patch on the sleeve, assure a recognisable look."
     },
     {
       "title": "Peak Double Breasted Suit",
@@ -97,7 +104,8 @@
       "alt": "trousers-3",
       "button": "Add to Cart",
       "id": "11",
-      "discount": "SAVE $210"
+      "discount": "SAVE $210",
+      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present."
     },
     {
       "title": "Sunset Chain Bag",
@@ -106,7 +114,8 @@
       "alt": "bag-2",
       "button": "Add to Cart",
       "id": "12",
-      "discount": null
+      "discount": null,
+      "description": "Released in 2016, Sunset bag is one of the label's iconic styles. This structured mini bag features an accordion design and is emblazoned with the signature YSL monogram."
     }
   ]
 }
