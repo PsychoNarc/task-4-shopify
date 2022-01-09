@@ -5,20 +5,20 @@ import { Link } from "react-router-dom";
 import { Buttons } from "../Buttons/Buttons";
 import { Navbar } from "../Navbar/Navbar";
 import { useDispatch, useSelector } from "react-redux";
-import { setProducts } from "../../redux/actions/productActions";
+import { setProducts, fetchProducts } from "../../redux/actions/productActions";
 
 export const Catalog = () => {
   const products = useSelector(state => state.allProducts.products);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const fetchProducts = async () => {
-      const response = await axios
-        .get("http://localhost:8000/catalog-data")
-        .catch(err => console.log(err));
-      dispatch(setProducts(response.data));
-    }
-    fetchProducts();
+    // const fetchProducts = async () => {
+    //   const response = await axios
+    //     .get("http://localhost:8000/catalog-data")
+    //     .catch(err => console.log(err));
+    //   dispatch(setProducts(response.data));
+    // }
+    dispatch(fetchProducts());
   }, [dispatch]);
 
   return (

@@ -6,6 +6,8 @@ const initalState = {
 
 export const productsReducer = (state = initalState, { type, payload }) => {
     switch (type) {
+        case Actiontypes.FETCH_PRODUCTS:
+            return { ...state, products: payload }
         case Actiontypes.SET_PRODUCTS:
             return { ...state, products: payload }
         default:
