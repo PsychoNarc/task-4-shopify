@@ -28,7 +28,7 @@ export const ProductDetails = () => {
                 Object.keys(product).length === 0 ? (<div>Loading...</div>) : (
                     <div className='single-product container my-5 pt-5'>
                         <div className='row'>
-                            <div className='col-lg-7 col-md-12 col-12 col-2'>
+                            <div className='container-fluid col-lg-6 col-md-12 col-12 col-2'>
                                 <div className='display-image'>
                                     <img className='image-big img-fluid w-100 pb-5' src={`../${product.image}`} alt={product.alt} />
                                 </div>
@@ -48,7 +48,7 @@ export const ProductDetails = () => {
                                 </div>
                             </div>
 
-                            <div className='col-lg-4 col-md-12 col-12'>
+                            <div className='col-lg-5 col-md-12 col-12'>
                                 <div className="featured-favorite">
                                     <p className="product-topline">T-Shirt</p>
                                     <span>
@@ -77,7 +77,7 @@ export const ProductDetails = () => {
 
                                 <div className="button-wrap">
                                     <Buttons to="/">{product.button}</Buttons>
-                                    <Buttons to="/">Add to Cart</Buttons>
+                                    <Buttons to="/" buttonStyle="button-outline" buttonSize="button-medium">Buy Now</Buttons>
                                 </div>
                                 <div className="featured-tags">
                                     <p>Tags</p>
@@ -90,6 +90,17 @@ export const ProductDetails = () => {
                                     <span className="banner-tags">T-Shirts</span>
                                 </div>
                                 <p className='product-description'>{product.description}</p>
+                                <div className='product-highlights'>
+                                    <h4 className={product.highlights && "product-highlights"}>{product.features}</h4>
+                                    <ul className='highlights-ul'>
+                                        {product.highlights.map((highlight, index) => (
+                                            <li key={index}>{highlight}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+
+
+
                             </div>
                         </div>
                     </div>

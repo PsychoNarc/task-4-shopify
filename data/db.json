@@ -7,7 +7,10 @@
       "alt": "shirt-1",
       "button": "Add to Cart",
       "id": "1",
-      "discount": null
+      "discount": null,
+      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present.",
+      "features": "Highlights",
+      "highlights": ["100% Cotton", "Machine Washable", "Made in USA"]
     },
     {
       "title": "Backstrap Side Stripe Trousers",
@@ -17,7 +20,18 @@
       "button": "Add to Cart",
       "id": "2",
       "discount": null,
-      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present."
+      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present.",
+      "features": "Highlights",
+      "highlights": [
+        "dark grey/red/navy/white",
+        "cotton-blend",
+        "concealed front fastening",
+        "pressed crease",
+        "side stripe detailing",
+        "two side slit pockets",
+        "two rear welt pockets",
+        "turn-up cuffs"
+      ]
     },
     {
       "title": "Borrowed Tailored Trousers",
@@ -27,7 +41,18 @@
       "button": "Add to Cart",
       "id": "3",
       "discount": "SAVE $600",
-      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present."
+      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present.",
+      "features": "Highlights",
+      "highlights": [
+        "dark grey/red/navy/white",
+        "cotton-blend",
+        "concealed front fastening",
+        "pressed crease",
+        "side stripe detailing",
+        "two side slit pockets",
+        "two rear welt pockets",
+        "turn-up cuffs"
+      ]
     },
     {
       "title": "Breaseted Two-piece Suit",
@@ -36,7 +61,9 @@
       "alt": "suit-1",
       "button": "Add to Cart",
       "id": "4",
-      "discount": null
+      "discount": null,
+      "features": null,
+      "highlights": []
     },
     {
       "title": "Carretto Print Bag",
@@ -46,7 +73,16 @@
       "button": "Add to Cart",
       "id": "5",
       "discount": "SAV $1400",
-      "description": "Boasting a multicolor Carretto print covering the entire canvas bag, this accessory has two rounded top handles and polished gold-tone chain shoulder straps that exude Italian decadence."
+      "description": "Boasting a multicolor Carretto print covering the entire canvas bag, this accessory has two rounded top handles and polished gold-tone chain shoulder straps that exude Italian decadence.",
+      "features": "Highlights",
+      "highlights": [
+        "multicolor",
+        "cotton and leather",
+        "two rounded top handles",
+        "two chain-link shoulder straps",
+        "leather tag",
+        "gold-tone logo plaque"
+      ]
     },
     {
       "title": "Fox Print T-shirt",
@@ -56,7 +92,17 @@
       "button": "Add to Cart",
       "id": "6",
       "discount": "SAV $200",
-      "description": "Known for reshaping its signature fox motif, the shop delivers this cotton T-shirt that is printed with a playful iteration of the house's whimsical animal."
+      "description": "Known for reshaping its signature fox motif, the shop delivers this cotton T-shirt that is printed with a playful iteration of the house's whimsical animal.",
+      "features": "Highlights",
+      "highlights": [
+        "navy blue",
+        "cotton",
+        "signature fox motif",
+        "crew neck",
+        "short sleeves",
+        "straight hem",
+        "ribbed edge"
+      ]
     },
     {
       "title": "Gift Card",
@@ -66,7 +112,9 @@
       "button": "Add to Cart",
       "id": "7",
       "discount": null,
-      "description": "Explore our gift card ideas for the perfect pieces for graduations, birthdays & anniversaries."
+      "description": "Explore our gift card ideas for the perfect pieces for graduations, birthdays & anniversaries.",
+      "features": null,
+      "highlights": []
     },
     {
       "title": "Gradient Fringed Scarf",
@@ -76,7 +124,16 @@
       "button": "Add to Cart",
       "id": "8",
       "discount": null,
-      "description": "Woven from a soft blend of alpaca wool, this Isabel Marant scarf is part of the brand's AW21 collection and features a gradient effect in shades of green. It's finished with an embroidered logo at the front and fringed edges for added texture."
+      "description": "Woven from a soft blend of alpaca wool, this Isabel Marant scarf is part of the brand's AW21 collection and features a gradient effect in shades of green. It's finished with an embroidered logo at the front and fringed edges for added texture.",
+      "features": "Highlights",
+      "highlights": [
+        "tonal green",
+        "alpaca wool blend",
+        "knitted construction",
+        "gradient effect",
+        "fringed edge",
+        "embroidered logo to the front"
+      ]
     },
     {
       "title": "Graphic Print T-shirt",
@@ -86,7 +143,17 @@
       "button": "Add to Cart",
       "id": "9",
       "discount": "SAVE $110",
-      "description": "Crafted from 100% cotton, it is detailed with a playful graphic print on the chest. Two branded details, a logo print on the front and a signature patch on the sleeve, assure a recognisable look."
+      "description": "Crafted from 100% cotton, it is detailed with a playful graphic print on the chest. Two branded details, a logo print on the front and a signature patch on the sleeve, assure a recognisable look.",
+      "features": "Highlights",
+      "highlights": [
+        "white",
+        "cotton",
+        "round neck",
+        "graphic print at the chest",
+        "logo print to the front",
+        "short sleeves",
+        "straight hem"
+      ]
     },
     {
       "title": "Peak Double Breasted Suit",
@@ -95,7 +162,9 @@
       "alt": "suit-2",
       "button": "Add to Cart",
       "id": "10",
-      "discount": "SAVE $100"
+      "discount": "SAVE $100",
+      "features": null,
+      "highlights": []
     },
     {
       "title": "Pocket Tailored Trousers",
@@ -105,7 +174,18 @@
       "button": "Add to Cart",
       "id": "11",
       "discount": "SAVE $210",
-      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present."
+      "description": "You'd be hard-pressed to find a retro-focused design with more contemporary life in them, than this Thom Browne pair of trousers. A classic backstrap harkens back to vintage suiting, while the cut and stripe detail place it in the present.",
+      "features": "Highlights",
+      "highlights": [
+        "dark grey/red/navy/white",
+        "cotton-blend",
+        "concealed front fastening",
+        "pressed crease",
+        "side stripe detailing",
+        "two side slit pockets",
+        "two rear welt pockets",
+        "turn-up cuffs"
+      ]
     },
     {
       "title": "Sunset Chain Bag",
@@ -115,7 +195,18 @@
       "button": "Add to Cart",
       "id": "12",
       "discount": null,
-      "description": "Released in 2016, Sunset bag is one of the label's iconic styles. This structured mini bag features an accordion design and is emblazoned with the signature YSL monogram."
+      "description": "Released in 2016, Sunset bag is one of the label's iconic styles. This structured mini bag features an accordion design and is emblazoned with the signature YSL monogram.",
+      "features": "Highlights",
+      "highlights": [
+        "red",
+        "accordion design",
+        "signature YSL logo plaque",
+        "detachable chain-link shoulder strap",
+        "foldover top",
+        "magnetic fastening",
+        "single circular top handle",
+        "internal logo stamp"
+      ]
     }
   ]
 }

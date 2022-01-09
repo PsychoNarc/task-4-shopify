@@ -115,3 +115,28 @@
   text-align: left;
   font-weight: 400;
 }
+
+.product-highlights{
+  text-align: left;
+}
+
+.product-highlights h4{
+  font-size: 20px;
+  line-height: 24px;
+  color: #344767;
+  text-align: left;
+  font-weight: 400;
+}
+
+.highlights-ul{
+  margin: 0 0 15px 20px;
+  padding: 0;
+}
+
+.highlights-ul li{
+  font-size: 20px;
+  line-height: 24px;
+  color: #344767;
+  text-align: left;
+  font-weight: 400;
+}

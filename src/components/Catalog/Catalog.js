@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import "./Catalog.css";
-import axios from 'axios';
 import { Link } from "react-router-dom";
 import { Buttons } from "../Buttons/Buttons";
 import { Navbar } from "../Navbar/Navbar";
 import { useDispatch, useSelector } from "react-redux";
-import { setProducts, fetchProducts } from "../../redux/actions/productActions";
+import { fetchProducts } from "../../redux/actions/productActions";
 
 export const Catalog = () => {
   const products = useSelector(state => state.allProducts.products);
