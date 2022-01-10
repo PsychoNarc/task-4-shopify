@@ -37,13 +37,13 @@ export const ProductDetails = () => {
                                         <img className='small-img' width='100%' src={`../${product.image}`} alt={product.alt} />
                                     </div>
                                     <div className='small-img-col'>
-                                        <img className='small-img' width='100%' src={`../${product.image}`} alt={product.alt} />
+                                        <img className='small-img' width='100%' src={`../${product.imageOne}`} alt={product.alt} />
                                     </div>
                                     <div className='small-img-col'>
-                                        <img className='small-img' width='100%' src={`../${product.image}`} alt={product.alt} />
+                                        <img className='small-img' width='100%' src={`../${product.imageTwo}`} alt={product.alt} />
                                     </div>
                                     <div className='small-img-col'>
-                                        <img className='small-img' width='100%' src={`../${product.image}`} alt={product.alt} />
+                                        <img className='small-img' width='100%' src={`../${product.imageThree}`} alt={product.alt} />
                                     </div>
                                 </div>
                             </div>
